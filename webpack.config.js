@@ -110,7 +110,6 @@ module.exports = {
             'process.env': {
                 BASE_URL: JSON.stringify(process.env.BASE_URL),
                 BASE_API_URL: JSON.stringify(process.env.BASE_API_URL),
-                ASSET_PATH: JSON.stringify('/dist/'),
                 NODE_ENV: JSON.stringify(isProduction ? 'production' : 'development')
             }
         })
