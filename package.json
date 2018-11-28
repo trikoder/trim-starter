@@ -1,7 +1,7 @@
 {
   "name": "project-cms",
   "version": "0.0.0",
-  "description": "Content managment system",
+  "description": "Content management system",
   "private": true,
   "scripts": {
     "dev": "NODE_ENV=development BASE_URL=/ BASE_API_URL=/api/ webpack-dev-server --open --hot",
