@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import ResourceHeader from 'cmf/js/components/resourceHeader';
+import ResourceHeader from 'trim/components/resourceHeader';
 
 export default {
 

@@ -58,6 +58,7 @@ module.exports = {
             {
                 test: /\.js$/,
                 loader: 'babel-loader',
+                exclude: /node_modules/,
                 include: [
                     path.join(__dirname, 'src'),
                     path.join(__dirname, 'node_modules/@trikoder/trim/src')
@@ -85,7 +86,8 @@ module.exports = {
 
         alias: {
             'vue$': 'vue/dist/vue.esm.js',
-            'cmf': '@trikoder/trim/src'
+            'cmf': '@trikoder/trim/src',
+            'trim': '@trikoder/trim/src/js'
         },
 
         extensions: ['*', '.js', '.vue', '.json']

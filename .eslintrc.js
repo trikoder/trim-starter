@@ -6,7 +6,7 @@ module.exports = {
     parser: 'babel-eslint'
   },
   env: {
-    browser: true,
+    browser: true
   },
   extends: [
     // https://github.com/vuejs/eslint-plugin-vue#priority-a-essential-error-prevention
@@ -61,6 +61,7 @@ module.exports = {
     'space-before-blocks': 'error',
     'space-before-function-paren': ['error', 'never'],
     'space-in-parens': ['error'],
+    'vue/no-use-v-if-with-v-for': 'off',
     'wrap-iife': 'error'
   }
 }
