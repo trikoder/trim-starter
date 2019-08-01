@@ -36,8 +36,8 @@ module.exports = {
                         loader: 'sass-resources-loader',
                         options: {
                             resources: [
-                                './node_modules/@trikoder/trim/src/scss/library/_all.scss',
-                                './src/scss/_variables.scss'
+                                './src/scss/_variables.scss',
+                                './node_modules/@trikoder/trim/src/scss/library/_all.scss'
                             ]
                         }
                     }
@@ -95,7 +95,6 @@ module.exports = {
 
     devServer: {
         historyApiFallback: true,
-        noInfo: false,
         overlay: true
     },
 
