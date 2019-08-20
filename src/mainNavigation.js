@@ -14,6 +14,7 @@ export default {
     getUserNavigationItems: router => [
 
         {
+            key: 'showSearch',
             name: 'Show search <span style="opacity: 0.4;">(Shift + l)</span>',
             action: mainNavigation => mainNavigation.showSearch().close()
         }
